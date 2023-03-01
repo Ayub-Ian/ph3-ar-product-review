@@ -5,7 +5,7 @@ This repo contains Many to Many class relationship which is also called the Has-
 
 Here is an image of the database ERD:
 
-![Database ERD image](assets/ERDDiagram1.png)
+![Database ERD image](assets/ERDDiagram1.jpg)
 
 ## Tools Used
 This project was built with the following tools:
