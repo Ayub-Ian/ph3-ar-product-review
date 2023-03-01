@@ -1,7 +1,11 @@
 # Object Relationships in RUBY
 This repository focuses on object relationships and classes, their attributes and behaviours.
 
-This repo contains Many to Many class relationship which is also called the Has-Many-Through relationship, which exists between two objects and occurs when a single instance of an entity, relates to many instance of another entity and vise versa. As an example we can take magazine and author entities. For our purposes, an Author has many Articles, a Magazine has many Articles, and Articles belong to both Author and Magazine. Author - Magazine is a many to many relationship.
+This repo contains Many to Many class relationship which is also called the Has-Many-Through relationship, which exists between two objects and occurs when a single instance of an entity, relates to many instance of another entity and vise versa. As an example we have three models: User, Review, and Product.For our purposes, a Product has many Users, a User has many Products’ s, and a Review belongs to a User and to a Product.Product - User is a many-to-many relationship.
+
+Here is an image of the database ERD:
+
+![Database ERD image](assets/ERDDiagram1.png)
 
 ## Tools Used
 This project was built with the following tools:
